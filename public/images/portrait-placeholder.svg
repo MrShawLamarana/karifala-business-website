@@ -1,0 +1,12 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" rx="44" fill="#FFFFFF"/>
+  <rect x="120" y="90" width="660" height="920" rx="36" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="450" cy="390" r="180" fill="#F58220"/>
+  <circle cx="450" cy="360" r="135" fill="#000000"/>
+  <path d="M335 820C355 700 400 660 450 660C500 660 545 700 565 820V900H335V820Z" fill="#F58220"/>
+  <path d="M372 265C372 220 406 184 450 184C494 184 528 220 528 265V318C528 363 494 398 450 398C406 398 372 363 372 318V265Z" fill="#FFFFFF"/>
+  <path d="M390 280C390 238 420 204 456 204H468C504 204 534 238 534 280V299C534 340 501 374 460 374H442C401 374 390 341 390 299V280Z" fill="#000000"/>
+  <path d="M420 575H480V780H420V575Z" fill="#FFFFFF"/>
+  <text x="450" y="980" text-anchor="middle" fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">KARIFALA PROFILE</text>
+  <text x="450" y="1028" text-anchor="middle" fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="28">Replace with a real professional photo when available</text>
+</svg>

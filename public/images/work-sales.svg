@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="30" fill="#FFFFFF"/>
+  <rect x="120" y="140" width="960" height="620" rx="28" fill="#000000"/>
+  <circle cx="330" cy="390" r="120" fill="#F58220"/>
+  <path d="M300 340L455 340C509 340 553 384 553 438V469C553 523 509 567 455 567H300V340Z" fill="#FFFFFF"/>
+  <rect x="660" y="260" width="240" height="48" rx="16" fill="#FFFFFF"/>
+  <rect x="660" y="332" width="300" height="32" rx="14" fill="#FFFFFF"/>
+  <rect x="660" y="390" width="290" height="32" rx="14" fill="#FFFFFF"/>
+  <rect x="660" y="448" width="230" height="32" rx="14" fill="#FFFFFF"/>
+  <text x="600" y="760" text-anchor="middle" fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Sales &amp; Mobile Money</text>
+</svg>

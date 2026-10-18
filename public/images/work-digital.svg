@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="30" fill="#FFFFFF"/>
+  <rect x="200" y="180" width="800" height="520" rx="30" fill="#000000"/>
+  <rect x="260" y="230" width="680" height="140" rx="18" fill="#FFFFFF"/>
+  <rect x="260" y="420" width="300" height="180" rx="18" fill="#F58220"/>
+  <rect x="610" y="420" width="330" height="180" rx="18" fill="#FFFFFF"/>
+  <circle cx="410" cy="500" r="42" fill="#FFFFFF"/>
+  <path d="M740 510H900" stroke="#000000" stroke-width="18" stroke-linecap="round"/>
+  <path d="M740 548H860" stroke="#000000" stroke-width="18" stroke-linecap="round"/>
+  <text x="600" y="760" text-anchor="middle" fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Digital Account Support</text>
+</svg>

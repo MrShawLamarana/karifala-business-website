@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #000000;
+  --brand-orange: #f58220;
+  --background: #ffffff;
+  --surface: #ffffff;
+  --text: #000000;
+  --muted: #000000;
+  --border: #000000;
+  --success: #f58220;
+  --error: #000000;
+}
+
+@theme inline {
+  --color-primary: var(--brand-primary);
+  --color-secondary: var(--brand-orange);
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Keep legacy Tailwind color utilities within the requested three-color palette. */
+[class*="text-slate-200"],
+[class*="text-slate-300"],
+[class*="text-slate-400"],
+[class*="text-white"] {
+  color: #ffffff !important;
+}
+
+[class*="text-slate-500"],
+[class*="text-slate-600"],
+[class*="text-slate-700"],
+[class*="text-slate-800"],
+[class*="text-slate-900"],
+[class*="text-[#123B66]"],
+[class*="text-[#182230]"],
+[class*="text-[#dce7f2]"],
+[class*="text-[#16803C]"],
+[class*="text-[#0f5b2b]"],
+[class*="text-[#B42318]"],
+[class*="text-[#7a1e1c]"],
+[class*="text-[#667085]"] {
+  color: #000000 !important;
+}
+
+[class*="text-[#F58220]"],
+[class*="text-[#f2a85d]"] {
+  color: #f58220 !important;
+}
+
+[class*="bg-slate-"],
+[class*="bg-[#F5F7FA]"],
+[class*="bg-[#e9f2fb]"],
+[class*="bg-[#ecfdf3]"],
+[class*="bg-[#fef3f2]"] {
+  background-color: #ffffff !important;
+}
+
+[class*="bg-[#123B66]"],
+[class*="bg-[#0f2137]"],
+[class*="bg-[#0f1f32]"],
+[class*="bg-[#0d2d4d]"],
+[class*="bg-[#0E2F4E]"],
+[class*="bg-[#0F2D4D]"],
+[class*="bg-[#0D2B49]"] {
+  background-color: #000000 !important;
+}
+
+[class*="bg-[#F58220]"],
+[class*="bg-[#df6d0b]"],
+[class*="bg-[#f2a85d]"] {
+  background-color: #f58220 !important;
+}
+
+[class*="bg-[#F58220]/"],
+[class*="bg-white/"] {
+  background-color: #f58220 !important;
+}
+
+[class*="bg-[#123B66]/10"] {
+  background-color: #f58220 !important;
+}
+
+[class*="border-slate-"],
+[class*="border-[#123B66]"],
+[class*="border-[#e4e7ec]"],
+[class*="border-[#16803C]"],
+[class*="border-[#B42318]"] {
+  border-color: #000000 !important;
+}
+
+[class*="border-white"] {
+  border-color: #ffffff !important;
+}
+
+[class*="border-[#123B66]/"] {
+  border-color: #000000 !important;
+}
+
+[class*="ring-[#123B66]"] {
+  --tw-ring-color: #000000 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
